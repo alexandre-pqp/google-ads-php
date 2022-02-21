@@ -77,7 +77,7 @@ use InvalidArgumentException;
  */
 class AddSmartCampaign
 {
-    private const CUSTOMER_ID = 'INSERT_CUSTOMER_ID_HERE';
+    private const CUSTOMER_ID = '2471346599';
     // Optional: Specify a keyword text used to retrieve keyword theme constant suggestions from the
     // KeywordThemeConstantService. These keyword theme suggestions are generated using
     // auto-completion data for the given text and may help improve the performance of the Smart
@@ -94,17 +94,17 @@ class AddSmartCampaign
     private const BUSINESS_LOCATION_ID = null;
     // Optional: Specify the name of a Business Profile business. This is required if a
     // business location ID is not provided.
-    private const BUSINESS_NAME = null;
+    private const BUSINESS_NAME = "Plus que PRO Digital";
 
-    // Geo target constant for New York City.
-    private const GEO_TARGET_CONSTANT = '1023191';
+    // Geo target constant for Obernai, France.
+    private const GEO_TARGET_CONSTANT = '9049958';
     // Country code is a two-letter ISO-3166 code, for a list of all codes see:
     // https://developers.google.com/google-ads/api/reference/data/codes-formats#expandable-16
-    private const COUNTRY_CODE = 'US';
+    private const COUNTRY_CODE = 'FR';
     // For a list of all language codes, see:
     // https://developers.google.com/google-ads/api/reference/data/codes-formats#expandable-7
-    private const LANGUAGE_CODE = 'en';
-    private const LANDING_PAGE_URL = 'http://www.example.com';
+    private const LANGUAGE_CODE = 'fr';
+    private const LANDING_PAGE_URL = 'https://www.plus-que-pro-digital.fr/';
     private const PHONE_NUMBER = '555-555-5555';
     private const BUDGET_TEMPORARY_ID = '-1';
     private const SMART_CAMPAIGN_TEMPORARY_ID = '-2';
